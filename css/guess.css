@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#guess .top{
+  border-top: 1px solid #e9e9e9;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+#guess .top h2{
+  float: left;
+  font-size: 22px;
+}
+
+#guess .top span{
+  float: left;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 14px;
+}
+
+#guess .body{
+  margin-right: -20px;
+  margin-top: 20px;
+}
+
+#guess .body .item{
+  width: 260px;
+  float: left;
+  margin-right: 20px;
+}
+
+#guess .body .item a:nth-child(1){
+  width: 260px;
+  height: 260px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+#guess .body .item img{
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+
+#guess .body .item a:nth-child(2){
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  height: 50px;
+}
+
+#guess .body .item a:nth-child(2):hover{
+  text-decoration: underline;
+}
+
+#guess .body .item .new-price{
+  color: #ff1e32;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#guess .body .item .old-price{
+  text-decoration: line-through;
+  margin-left: 10px;
+  color: #999;
+}
+
+#guess .body .item a:nth-child(3){
+  float: right;
+  margin-top: 12px;
+  color: #999;
+}
+
+#guess .body .item a:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+
+
