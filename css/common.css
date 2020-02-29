@@ -19,3 +19,14 @@ body{
   margin-left: 4px;
   margin-bottom: 2px;
 }
+
+.hot{
+  color: #ff080f;
+}
+
+/* 清浮动 */
+.clear-fix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
