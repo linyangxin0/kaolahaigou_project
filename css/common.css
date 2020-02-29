@@ -2,5 +2,20 @@
 
 body{
   font-size: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB, \5FAE\8F6F\96C5\9ED1,tohoma,simsun,\5b8b\4f53;
-  
+}
+
+.wrap{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.arrows{
+  width: 0;
+  height: 0;
+  border-top: 6px solid #999;
+  border-left: 6px solid transparent;
+  display: inline-block;
+  transform: rotate(135deg);
+  margin-left: 4px;
+  margin-bottom: 2px;
 }
