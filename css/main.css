@@ -1,14 +1,11 @@
 @charset "utf-8";
 
-/* #mian .beautiful-place 。main-top{
-  height: 74px;
-  padding-top: 25px;
-  box-sizing: border-box;
-  font-size: 14px;
-  color: #999;
-  border-top: 1px solid #e9e9e9;
+#main .main-top{
   margin-top: 36px;
-} */
+  padding-top: 25px;
+
+  border-top: 1px solid #e9e9e9;
+}
 
 #main .beautiful-place .main-top h2{
   color: #333;
@@ -94,14 +91,6 @@
   line-height: 58.4px;
 }
 
-
-
-
-
-
-
-
-
 #main .beautiful-place .main-body .right .item{
   width: 220px;
   height: 120px;
@@ -140,15 +129,6 @@
   line-height: 42px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
 }
-
-
-
-
-
-
-
-
-
 
 #main .beautiful-place .main-body .middle a{
   position: relative;
@@ -208,6 +188,55 @@
   margin-top: 27px;
   margin-right: 14px;
 }
+
+
+/* 热门品牌展示 */
+
+#main .hot-band{
+  margin-top: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+
+#main .hot-band .top-text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  margin-left: 20px;
+}
+
+#main .hot-band .top-text h2{
+  font-size: 16px;
+}
+
+#main .hot-band .band{
+  margin-right: -4px;
+}
+
+#main .hot-band .band a{
+  float: left;
+  width: 219px;
+  height: 167px;
+  position: relative;
+
+  border-top: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+}
+
+
+#main .hot-band .band a img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+
+
+
 
 
 
