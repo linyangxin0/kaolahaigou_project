@@ -58,5 +58,67 @@
 #right-flex .r-content a span{
   display: inline-block;
   margin-top: 23px;
-
 }
+
+
+/* 左边固定定位悬浮部分 */
+
+#left-flex .l-content{
+  position: fixed;
+  width: 99px;
+  height: 526px;
+  left: 90px;
+  top: 60px;
+  background-color: #fff;
+
+  border: 1px solid #e9e9e9;
+}
+
+#left-flex .l-content a:nth-of-type(1){
+  width: 99px;
+  height: 49px;
+}
+
+#left-flex .l-content div{
+  width: 99px;
+  height: 52px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #333;
+  border-top: 1px solid #e9e9e9;
+}
+
+#left-flex .l-content div a{
+  margin-left: 9px;
+}
+
+#left-flex .l-content ul{
+  width: 99px;
+  height: 225px;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px 0;
+}
+
+#left-flex .l-content ul li{
+  color: #999;
+  width: 97px;
+  height: 32px;
+  display: block;
+  line-height: 32px;
+  padding-left: 9px;
+}
+
+#left-flex .l-content .downlog{
+  width: 99px;
+  height: 128px;
+}
+
+#left-flex .l-content ul li:hover{
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+
