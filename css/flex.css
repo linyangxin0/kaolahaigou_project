@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+/* 右边固定定位的悬浮块 */
+
+#right-flex .r-content{
+  width: 62px;
+  height: 243px;
+  position: fixed;
+  right: 90px;
+  top: 60px;
+
+  border-top: 1px solid #e9e9e9;
+}
+
+
+#right-flex .r-content a{
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding-top: 12px;
+  width: 62px;
+  height: 48px;
+  text-align: center;
+
+  border-bottom: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+}
+
+#right-flex .r-content a i{
+  display: block;
+  width: 20px;
+  height: 20px;
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#right-flex .r-content a:nth-child(1) i{
+  background-image: url(../img/icon-aside-right-signin.png);
+}
+
+#right-flex .r-content a:nth-child(2) i{
+  background-image: url(../img/icon-aside-right-cart.png);
+}
+
+#right-flex .r-content a:nth-child(3) i{
+  background-image: url(../img/icon-aside-right-phone.png);
+}
+
+#right-flex .r-content a:nth-child(4) i{
+  background-image: url(../img/icon-aside-right-top.png);
+}
+
+#right-flex .r-content a span{
+  display: inline-block;
+  margin-top: 23px;
+
+}
