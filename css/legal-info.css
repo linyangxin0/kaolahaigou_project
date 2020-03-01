@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#legal-info{
+  background-color: #333;
+  padding: 20px 0;
+}
+
+#legal-info a, #legal-info span {
+  color: #c2c2c2;
+}
+
+#legal-info .line2 a,#legal-info .line3 a{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#legal-info .line1, #legal-info .line2, #legal-info .line3{
+  text-align: center;
+  margin-top: 8px;
+}
+
+#legal-info .about .honest{
+  text-align: center;
+  margin-top: 8px;
+}
+
+#legal-info .about .honest img:nth-child(1) ,#legal-info .about .honest img:nth-child(2){
+  width: 84px;
+  height: 30px;
+}
+
+#legal-info .about .honest img:nth-child(2){
+  margin: 0 10px;
+}
+
+#legal-info .about .honest img:nth-child(3){
+  width: 30px;
+  height: 30px;
+}
+
+
+#legal-info .line3 .police{
+  position: relative;
+}
+
+#legal-info .line3 .police::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon-police.png);
+  left: -25px;
+  top: -3px;
+}
+
+
+
+
+
+
