@@ -60,6 +60,28 @@
   margin-top: 23px;
 }
 
+#right-flex .r-content a:hover{
+  background-color: #f6f6f6;
+  color: #ff1e32;
+}
+
+#right-flex .r-content a:nth-child(1):hover i{
+  background-image: url(../img/icon-aside-right-signin-active.png);
+}
+
+#right-flex .r-content a:nth-child(2):hover i{
+  background-image: url(../img/icon-aside-right-cart-active.png);
+}
+
+#right-flex .r-content a:nth-child(3):hover i{
+  background-image: url(../img/icon-aside-right-phone-active.png);
+}
+
+#right-flex .r-content a:nth-child(4):hover i{
+  background-image: url(../img/icon-aside-right-top-active.png);
+}
+
+
 
 /* 左边固定定位悬浮部分 */
 
