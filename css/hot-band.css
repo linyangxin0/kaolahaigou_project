@@ -97,6 +97,7 @@
   border-bottom: 1px solid #e9e9e9;
   border-right: 1px solid #e9e9e9;
 
+  position: relative;
 }
 
 #hot-band .container .contain-right ul li a{
@@ -106,6 +107,7 @@
 
 #hot-band .container .contain-right ul li a img{
   margin-top: 12px;
+  transition: all .3s ease-in;
 }
 
 #hot-band .container .contain-right ul li a .meg{
@@ -113,6 +115,66 @@
   margin-top: 8px;
   font-weight: 700;
 }
+
+#hot-band .container .contain-right ul li .entrance{
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+#hot-band .container .contain-right ul li .entrance .focus{
+  position: absolute;
+
+  left: 10px;
+  top: 10px;
+
+  color: #999;
+  border: 1px solid #999;
+  width: 52px;
+  height: 20px;
+
+  border-radius: 10px;
+}
+
+
+#hot-band .container .contain-right ul li .entrance p{
+  margin: 99px 0 8px;
+  color: #999;
+}
+
+#hot-band .container .contain-right ul li .entrance .join{
+  display: inline-block;
+  width: 80px;
+  height: 36px;
+  border: 2px solid #ff1e3c;
+  border-radius: 18px;
+  font-size: 14px;
+  color: #ff1e3c;
+  line-height: 36px;
+}
+
+#hot-band .container .contain-right ul li:hover .entrance{
+  display: block;
+} 
+
+#hot-band .container .contain-right ul li:hover .meg{
+  display: none;
+}
+
+#hot-band .container .contain-right ul li:hover .express img{
+  transform: scale(0.5) translate(0,-40px);
+  transition: all .3s ease-in;
+
+}
+
+
+
+
+
+
 
 
 
