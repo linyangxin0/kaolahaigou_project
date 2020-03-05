@@ -172,6 +172,273 @@
 }
 
 
+/* 大图顶上导航栏部分 */
+
+#header .nav-bar {
+  display: flex;
+
+  height: 40px;
+}
+
+#header .nav-bar .classification{
+  position: relative;
+  width: 164px;
+  height: 42px;
+  background: linear-gradient(90deg,red,#ff3264);
+  font-size: 14px;
+
+  text-align: center;
+  line-height: 42px;
+
+}
+
+
+
+#header .nav-bar .classification span{
+  color: #fff;
+
+  line-height: 40px;
+}
+
+#header .nav-bar .classification ul{
+  position: absolute;
+  width: 164px;
+
+  top: 40px;
+  display: block;
+  z-index: 1;
+}
+
+#header .nav-bar .classification ul li{
+  width: 164px;
+  height: 40px;
+  background: linear-gradient(90deg,red,#ff3264);
+
+  position: relative;
+
+  border-bottom: 1px solid #ff5160;
+
+}
+
+#header .nav-bar .classification ul li a{
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+
+#header .nav-bar .classification ul li:hover{
+  background:#fff;
+}
+
+#header .nav-bar .classification ul li:hover .normal{
+  display: none;
+}
+
+#header .nav-bar .classification ul li:hover .active{
+  display: block;
+}
+
+
+#header .nav-bar .classification ul li:hover a{
+  color: #ff1e32;
+}
+
+#header .nav-bar .classification ul li:hover .arrow{
+  display: none;
+}
+
+#header .nav-bar .classification ul li:hover .arrow-active{
+  display: block;
+}
+
+
+#header .nav-bar .classification .normal{
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 20px;
+}
+
+#header .nav-bar .classification .active{
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 20px;
+  display: none;
+}
+
+
+
+#header .nav-bar .classification .arrow{
+  width: 16px;
+  height: 16px;
+  color: #fff;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 20px;
+}
+
+#header .nav-bar .classification .arrow-active{
+  width: 16px;
+  height: 16px;
+  color: #fff;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 20px;
+  display: none;
+}
+
+
+
+
+#header .nav-bar ul{
+  display: inline-block;
+  display: flex;
+
+  width: 773.36px;
+  height: 22.4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333;
+
+  justify-content: space-evenly;
+}
+
+#header .nav-bar ul li{
+  line-height: 40px;
+}
+
+#header .nav-bar ul li:hover{
+  cursor: pointer;
+
+  color: #ff1e32;
+}
+
+
+
+
+
+
+
+/* 大图部分 */
+
+#header .top-category .container{
+  /* height: 496px; */
+  overflow: hidden;
+}
+
+#header .top-category .container a img{
+  position: relative;
+  right: -50%;
+  transform: translate(-50%,0);
+  height: 496px;
+}
+
+
+/* 大图底部 */
+#header .top-category .container .bottom-bar{
+  height: 45px;
+
+  position: relative;
+  top: -45px;
+  left: 0;
+  right: 0;
+
+  overflow: hidden;
+}
+
+
+#header .top-category .container .bottom-bar ul{
+  display: flex;
+  line-height: 45px;
+}
+
+#header .top-category .container .bottom-bar .wrap{
+  display: flex;
+  position: relative;
+}
+
+
+#header .top-category .container .bottom-bar .bottom-bar-right{
+  line-height: 45px;
+  position: absolute;
+  right: 20px;
+  
+}
+
+#header .top-category .container .bottom-bar .bottom-bar-right a{
+  color: #fff;
+}
+#header .top-category .container .bottom-bar .bottom-bar-right a::before{
+  position: relative;
+  top: 5px;
+  left: 3px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background: url(../img/icon-service-right-iphone.png);
+}
+
+#header .top-category .container .bottom-bar ul li{
+  margin-right: 45px;
+}
+
+#header .top-category .container .bottom-bar ul li a{
+  color: #fff;
+  margin-left: 8px;
+}
+
+#header .top-category .container .bottom-bar ul li i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#header .top-category .container .bottom-bar a:hover{
+  text-decoration: underline;
+}
+
+#header .top-category .container .bottom-bar .blur{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  
+  background: url("../img/banner.jpg") center bottom;
+  filter: blur(8px);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
